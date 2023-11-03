@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap'); */
+
+*, ::before, ::after {
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 203, 210);
+    font-family: 'Raleway Dots', sans-serif;
+    /* font-family: 'Zen Loop', sans-serif; */
+    /* border: 1px solid red; */
+    /* height: 50vh; */
+    height: 100vh;
+}
+
+/* .nav-bar {
+    background-image: url("https://images.unsplash.com/photo-1522448241177-ae0afec2bb73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80");
+    height: 130vh;
+    background-size: cover;
+} */
+
+h1 {
+    /* font-family: 'Monsieur La Doulaise', sans-serif; */
+    text-align: center;
+    font-size: 50pt;
+    font-weight: 900;
+    color: white;
+    /* border: 1px solid black; */
+    padding: 16px;
+}
+
+.counter-container {
+    /* border: 5px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    /* margin-top: 20px; */
+    height: 100%;
+    max-width: 80%;
+    margin: auto;
+    /* margin-bottom: 10px; */
+}
+
+.counter-content {
+    /* border: 5px solid black; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 8px;
+    border-radius: 10px;
+    padding: 16px;
+    border-style: dotted;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.reload-btn {
+    /* border:  5px solid red; */
+    /* display: flex;
+    justify-content: flex-end; */
+    /* margin-bottom: 10px; */
+    align-self: flex-end;
+    padding: 16px;
+}
+
+/* #increment-btn {
+    
+} */
+
+.visitor, #count, .visitor-btn-container {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .visitor {
+    border: 5px solid red;
+} */
+
+/* #count {
+    border: 5px solid orange;
+} */
+
+
+.top {
+    /* border: 5px solid hotpink; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 1.25rem;
+    font-size: 50pt;
+    height: 45%;
+    /* background: white; */
+    border-radius: 10px;
+}
+
+.bottom {
+    /* border: 5px solid brown; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: flex-end; */
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.visitor-btn-container {
+    /* border: 5px solid white; */
+    display: flex;
+    /* flex-direction: column; */
+    /* gap: 20px; */
+    padding: 16px;
+    width: 100%;
+    gap: 8px;
+}
+
+#increment-btn, #deincrement-btn, #save-btn, #reset-btn {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.saved-entries {
+    /* border: 5px solid cyan; */
+    display: flex;
+    /* align-items: center; */
+    padding: 16px;
+    width: 100%;
+    font-size: 20pt;
+}
+
+/* #save-el {
+    border: 5px solid yellow;
+} */
+
+button {
+    background-color: rgb(244, 153, 168);
+    padding: .625rem;
+    font-size: 1rem;
+    font-family: 'Raleway Dots', sans-serif;
+    border-radius: .5rem;
+    border: none;
+    /* position: relative;
+    display: inline-block; */
+}
+
+button:hover {
+    background-color: oldlace;
+}
+
+.footer {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+    border-top: 1px solid black;
+}
+
+#save-el {
+    /* border: 1px solid rosybrown; */
+    margin-left: 5px;
+}
+
+#increment-btn, #deincrement-btn, #save-btn, #reset-btn {
+    width: 15%;
+    /* border: 10px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+/* button .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background: pink;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 1;
+    top: 100%;
+} */
+/* button:hover .tooltip-text {
+    visibility: visible;
+} */

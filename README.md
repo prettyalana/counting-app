@@ -1,0 +1,1 @@
+This is a counting app that uses basic HTML, CSS, and JavaScript.
