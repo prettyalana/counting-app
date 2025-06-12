@@ -12,12 +12,13 @@ body {
   font-family: "Raleway Dots", sans-serif;
   height: 100vh;
   text-align: center;
+  font-weight: 900;
+  color: black;
 }
 
 h1 {
   text-align: center;
   font-size: 5em;
-  font-weight: 900;
   color: white;
   padding: 16px;
 }

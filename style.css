@@ -21,6 +21,8 @@
   padding-bottom: 100%;
   position: relative;
   text-align: center;
+  font-weight: 900;
+  color: black;
 }
 
 .title {
