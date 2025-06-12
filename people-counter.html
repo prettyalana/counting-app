@@ -1,57 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scrimba People Counter Lesson</title>
-    <link rel="stylesheet" href="people-counter.css">
-    <script src="https://kit.fontawesome.com/ab9c75fe83.js" crossorigin="anonymous"></script>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Scrimba People Counter Lesson</title>
+   <link rel="stylesheet" href="people-counter.css">
+   <script src="https://kit.fontawesome.com/ab9c75fe83.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<div class="nav-bar">
-   <!-- <h1>Alana's People Counter</h1> -->
-</div>
-<div class="counter-container">
-   <div class="counter-container-top"></div>
-   
-   
-   
-   <div class="counter-content">
-      <div class="reload-btn">
-         <button id="reload" onclick="reload()"><i class="fa-solid fa-rotate-right"></i></button>
-      </div>
-      <div class="counter-name">
-   
-      </div>
-      <!-- <div class="counter-name">
-         <div class="username"><i class="fa-solid fa-pen-to-square"></i><input id="usernameBox" type="name"/></div> 
-      </div> -->
-      <div class="top">
-         <div class="visitor">Current Visitors :</div>
-         <div id="count">0</div>
-         <!-- <div class="max">Max : <input id="max-visitors" type="number"/></div> -->
-         <!-- <div class="max">Max :</div>
-         <div id="max-visitors"></div> -->
-      </div>
-      <div class="bottom">
-         <div class="visitor-btn-container"><button id="increment-btn" onclick="increment()"><div class="increment">Increment</div><i class="fa-solid fa-user-plus">
-            <!-- <i class="fa-solid fa-person-circle-plus"></i> -->
-         </i></button>
-         <button id="deincrement-btn" onclick="deincrement()">Deincrement
-            <!-- <i class="fa-solid fa-person-circle-minus"></i> -->
-            <i class="fa-solid fa-user-minus"></i></button>
-         <button id="save-btn" onclick="save()">Save<i class="fa-solid fa-floppy-disk"></i></button><button id="reset-btn" onclick="reset()">Reset<i class="fa-solid fa-trash-can"></i></button></div>
+   <div class="nav-bar">
+      <h1>People Counter</h1>
+   </div>
+   <div class="counter-container">
+      <div class="counter-content">
+         <div class="reload-btn">
+            <button id="reload" onclick="reload()"><i class="fa-solid fa-rotate-right"></i></button>
+         </div>
+         <div class="counter-name">
+
+         </div>
+         <div class="top">
+            <div class="visitor">Current Visitors :</div>
+            <div id="count">0</div>
+         </div>
+         <div class="bottom">
+            <div class="visitor-btn-container"><button id="increment-btn" onclick="increment()">
+                  <div class="increment">Increment</div><i class="fa-solid fa-user-plus">
+                  </i>
+               </button>
+               <button id="deincrement-btn" onclick="deincrement()">Deincrement
+                  <i class="fa-solid fa-user-minus"></i></button>
+               <button id="save-btn" onclick="save()">Save<i class="fa-solid fa-floppy-disk"></i></button><button
+                  id="reset-btn" onclick="reset()">Reset<i class="fa-solid fa-trash-can"></i></button>
+            </div>
          </div>
          <div class="saved-entries">
-            <!-- <p id="save-el">Previous entries: </p> -->
             <div class="entries">Previous entries: </div>
             <p id="save-el"></p>
          </div>
-         <!-- <div class="saved-entries-total"><div id="total-entries">Total entries: </div> -->
       </div>
    </div>
-</div>
-<div class="footer">Alana Edwards 2023</div>
-<script src="people-counter.js"></script>
+   </div>
+   <div class="footer">Alana Edwards 2023</div>
+   <script src="people-counter.js"></script>
 </body>
+
 </html>
