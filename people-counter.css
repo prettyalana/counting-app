@@ -82,6 +82,7 @@ h1 {
   gap: 1rem;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .visitor-btn-container button {
